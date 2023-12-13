@@ -337,7 +337,9 @@ padding: 1rem;
   justify-content: space-evenly;
   margin-right: 80px;
   margin-left: 80px;
+  margin-bottom: 20px;
 }
+
 
 .work-item1,
 .work-item2,
@@ -348,6 +350,12 @@ padding: 1rem;
   margin-bottom: 10rem; 
   box-sizing: border-box;
 }
+
+.work-item3, .work-item4 {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
 .work-img1,
 .work-img2,
 .work-img3,
@@ -375,6 +383,8 @@ padding: 1rem;
   font-size: 14px;
   font-weight: bold;
 display: inline-block;
+position: relative; /* Set position property */
+  z-index: 1; /* Set a higher z-index value */
 }
 
 .csss{
@@ -385,6 +395,8 @@ display: inline-block;
   font-size: 14px;
   font-weight: bold;
 display: inline-block;
+position: relative; /* Set position property */
+  z-index: 1; /* Set a higher z-index value */
 }
 
 .jss{
@@ -395,6 +407,9 @@ display: inline-block;
   font-size: 14px;
   font-weight: bold;
 display: inline-block;
+position: relative; /* Set position property */
+  z-index: 1; /* Set a higher z-index value */
+
 }
 
 .purple-box {
@@ -402,7 +417,7 @@ display: inline-block;
   padding: 20px;
   color: rgb(10, 41, 97); /* Set text color to contrast with the purple background */
   border-radius: 10px;
-  margin: 0 80px;
+  margin: 5rem 80px;
 }
 
 
