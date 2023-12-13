@@ -356,6 +356,10 @@ padding: 1rem;
   margin-bottom: 10rem;
 }
 
+.work-item1, .work-item2 {
+  margin-top: 2rem;
+}
+
 .work-img1,
 .work-img2,
 .work-img3,
