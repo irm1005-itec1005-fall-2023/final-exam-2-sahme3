@@ -383,8 +383,8 @@ padding: 1rem;
   font-size: 14px;
   font-weight: bold;
 display: inline-block;
-position: relative; /* Set position property */
-  z-index: 1; /* Set a higher z-index value */
+position: relative;
+  z-index: 1; 
 }
 
 .csss{
@@ -395,8 +395,8 @@ position: relative; /* Set position property */
   font-size: 14px;
   font-weight: bold;
 display: inline-block;
-position: relative; /* Set position property */
-  z-index: 1; /* Set a higher z-index value */
+position: relative; 
+  z-index: 1; 
 }
 
 .jss{
@@ -407,22 +407,22 @@ position: relative; /* Set position property */
   font-size: 14px;
   font-weight: bold;
 display: inline-block;
-position: relative; /* Set position property */
-  z-index: 1; /* Set a higher z-index value */
+position: relative; 
+  z-index: 1; 
 
 }
 
 .purple-box {
   background-color: rgb(216, 188, 241);
   padding: 20px;
-  color: rgb(10, 41, 97); /* Set text color to contrast with the purple background */
+  color: rgb(10, 41, 97); 
   border-radius: 10px;
   margin: 5rem 80px;
 }
 
 
 h4, p, button {
-  margin-bottom: 10px; /* Adjust spacing between elements if needed */
+  margin-bottom: 10px; 
 }
 
 h4 {
